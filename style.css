@@ -120,14 +120,13 @@ li {
   font-size: 12px;
 }
 
-#team_pic{
+.team_pic{
   float:left;
   width:30%;
-  display: block;
+  margin:0;
 
 }
-#team_text{
+.team_text{
   float:left;
   width:70%;
-  display: block;
 }
