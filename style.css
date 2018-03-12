@@ -109,7 +109,7 @@ li {
   color: #FF0000;
 }*/
 
-.social {
+#social {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
