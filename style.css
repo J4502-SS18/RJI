@@ -63,7 +63,7 @@ li {
     display: inline-block;
 }
 
-#video {
+.link {
   padding: 10px;
   width: "568";
   height: "320";
@@ -71,7 +71,7 @@ li {
   object-fit: fill;
 }
 
-#link{
+.link{
   text-decoration: none;
   color:#009933;
 }
