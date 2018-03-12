@@ -83,7 +83,7 @@ li {
   color:#009933;
 }
 
-.fa {
+/*.fa {
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -107,35 +107,45 @@ li {
 .fa-youtube {
   background: #FFFFFF;
   color: #FF0000;
-}
+}*/
 
 .social {
-  align-items: center;
-  float: inherit;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .photo_aside {
+<<<<<<< HEAD
  width: 100%;
 float:left;
 }
 .text1 {
   float:left;
   text-align: left;
+=======
+  position:100%
+
+  margin: 0;
+>>>>>>> 707d18002922e8fda057b0fc31755d6d5ad0e362
 }
 .footer {
   font-style: italic;
   font-size: 12px;
 }
 
-#team_pic{
-  float:left;
-  width:30%;
+.team{
+  max-width: 560px;
   display: block;
 
 }
-#team_text{
+.team_pic{
+  float:left;
+  width:30%;
+
+}
+
+.team_text{
   float:left;
   width:70%;
-  display: block;
 }
