@@ -1,5 +1,5 @@
 h1 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Heebo', sans-serif;
   text-align: center;
 }
 
@@ -9,17 +9,21 @@ p{
 }
 
 img{
-  float: center;
+  float: inherit;
   padding: 0;
   display: block;
- margin-left: auto;
- margin-right: auto;
- width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 h2 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 25px;
+}
+
+#container{
+  width: auto;
 }
 
 #nav {
@@ -31,6 +35,8 @@ h2 {
   margin: 0;
   padding: 0;
   display: inline;
+  float:left;
+  width: 20%;
 }
 
 #nav a:link, #nav a:visited {
@@ -57,15 +63,22 @@ li {
     display: inline-block;
 }
 
-#video {
-  padding: 10px;
-  width: "568";
-  height: "320";
-  float: center;
-  object-fit: fill;
+.videoWrapper{
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
 
-#link{
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.link{
   text-decoration: none;
   color:#009933;
 }
@@ -98,7 +111,7 @@ li {
 
 .social {
   align-items: center;
-  float: center;
+  float: inherit;
   margin: 0 auto;
 }
 .email {
@@ -114,4 +127,16 @@ li {
 .footer {
   font-style: italic;
   font-size: 12px;
+}
+
+#team_pic{
+  float:left;
+  width:30%;
+  display: block;
+
+}
+#team_text{
+  float:left;
+  width:70%;
+  display: block;
 }
