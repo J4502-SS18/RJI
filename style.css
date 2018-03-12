@@ -12,9 +12,9 @@ img{
   float: center;
   padding: 0;
   display: block;
- margin-left: auto;
- margin-right: auto;
- width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 h2 {
@@ -48,6 +48,9 @@ h2 {
   font-family: 'Heebo', sans-serif;
   padding: 4px;
 }
+
+
+
 
 ul {
     list-style-type: none;
