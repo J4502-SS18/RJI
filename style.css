@@ -114,17 +114,28 @@ li {
   float: inherit;
   margin: 0 auto;
 }
-
+.email {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.photo_aside {
+  position:100%
+  
+  margin: 0;
+}
 .footer {
   font-style: italic;
   font-size: 12px;
 }
 
-#team_pic{
+.team_pic{
   float:left;
   width:30%;
+  margin:0;
+
 }
-#team_text{
+.team_text{
   float:left;
   width:70%;
 }
