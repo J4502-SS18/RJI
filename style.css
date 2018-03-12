@@ -36,11 +36,10 @@ h2 {
 #nav a:link, #nav a:visited {
   color: #000000;
   background-color: #d7dcd9;
-  font-weight: bold;
   display: block;
   text-decoration: none;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Heebo', sans-serif;
   padding: 4px;
 }
 
