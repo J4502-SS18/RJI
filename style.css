@@ -127,7 +127,7 @@ float:left;
 .text1 {
   float:left;
   text-align: left;
-  position:100%
+  position: inherit;
   margin: 0;
 }
 .footer {
