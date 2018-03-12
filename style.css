@@ -117,18 +117,14 @@ li {
 }
 
 .photo_aside {
-<<<<<<< HEAD
  width: 100%;
 float:left;
 }
 .text1 {
   float:left;
   text-align: left;
-=======
   position:100%
-
   margin: 0;
->>>>>>> 707d18002922e8fda057b0fc31755d6d5ad0e362
 }
 .footer {
   font-style: italic;
