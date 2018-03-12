@@ -121,7 +121,7 @@ li {
 }
 .photo_aside {
   position:100%
-  
+
   margin: 0;
 }
 .footer {
@@ -129,12 +129,17 @@ li {
   font-size: 12px;
 }
 
+.team{
+  max-width: 560px;
+  display: block;
+
+}
 .team_pic{
   float:left;
   width:30%;
-  margin:0;
 
 }
+
 .team_text{
   float:left;
   width:70%;
