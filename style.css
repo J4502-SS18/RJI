@@ -68,6 +68,7 @@ li {
   width: "568";
   height: "320";
   float: center;
+  object-fit: fill;
 }
 
 #link{
