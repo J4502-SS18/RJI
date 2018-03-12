@@ -114,15 +114,14 @@ li {
   float: inherit;
   margin: 0 auto;
 }
-.email {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  color: black;
-}
+
 .photo_aside {
-  position:100%
-  
-  margin: 0;
+ width: 100%;
+float:left;
+}
+.text1 {
+  float:left;
+  text-align: left;
 }
 .footer {
   font-style: italic;
