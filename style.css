@@ -134,8 +134,11 @@ li {
 #team_pic{
   float:left;
   width:30%;
+  display: block;
+
 }
 #team_text{
   float:left;
   width:70%;
+  display: block;
 }
