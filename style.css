@@ -9,7 +9,7 @@ p{
 }
 
 img{
-  float: center;
+  float: inherit;
   padding: 0;
   display: block;
   margin-left: auto;
@@ -23,7 +23,7 @@ h2 {
 }
 
 #container{
-  width:580;
+  width: auto;
 }
 
 #nav {
@@ -49,9 +49,6 @@ h2 {
   padding: 4px;
 }
 
-
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -64,14 +61,6 @@ li {
     float: left;
     position: sticky;
     display: inline-block;
-}
-
-.video {
-  padding: 0px;
-  width: "568";
-  height: "320";
-  float: center;
-  object-fit: fill;
 }
 
 .videoWrapper{
@@ -122,7 +111,7 @@ li {
 
 .social {
   align-items: center;
-  float: center;
+  float: inherit;
   margin: 0 auto;
 }
 
