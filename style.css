@@ -46,7 +46,7 @@ h2 {
   text-decoration: none;
   text-align: center;
   font-family: 'Heebo', sans-serif;
-  padding: 4px;
+  padding: 2px;
 }
 
 ul {
@@ -140,6 +140,7 @@ float:left;
   flex-direction:row;
 
 }
+
 .team_pic{
   width:100%;
 
