@@ -115,3 +115,12 @@ li {
   font-style: italic;
   font-size: 12px;
 }
+
+#team_pic{
+  float:left;
+  width:30%;
+}
+#team_text{
+  float:left;
+  width:70%;
+}
