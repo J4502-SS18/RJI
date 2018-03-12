@@ -116,6 +116,10 @@ li {
   justify-content: space-around;
 }
 
+.social{
+  width: 20%;
+}
+
 .photo_aside {
  width: 100%;
 float:left;
