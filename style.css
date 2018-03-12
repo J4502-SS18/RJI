@@ -136,17 +136,15 @@ float:left;
 }
 
 .team{
-  max-width: 560px;
-  display: block;
+  display: flex;
+  flex-direction:row;
 
 }
 .team_pic{
-  float:left;
-  width:30%;
+  width:100%;
 
 }
 
 .team_text{
-  float:left;
-  width:70%;
+  width:100%;
 }
