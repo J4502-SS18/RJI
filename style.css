@@ -160,3 +160,12 @@ float:left;
   width:100%;
   margin:10px;
 }
+
+.usercontent{
+  display: flex;
+  flex-direction:row;
+}
+
+.usertext{
+  margin-top:10px;
+}
