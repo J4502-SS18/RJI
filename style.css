@@ -22,21 +22,30 @@ h2 {
   font-size: 25px;
 }
 
+h3{
+  margin-top: 0;
+}
+
+
 #container{
   width: auto;
 }
 
 #nav {
-  padding: 0;
-  list-style-type: none;
+  padding: 1px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-around;
+  align-items: baseline;
+
 }
 
 #nav li {
   margin: 0;
   padding: 0;
   display: inline;
-  float:left;
-  width: 20%;
 }
 
 #nav a:link, #nav a:visited {
@@ -46,19 +55,18 @@ h2 {
   text-decoration: none;
   text-align: center;
   font-family: 'Heebo', sans-serif;
-  padding: 4px;
+  padding: 2px;
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #d7dcd9;
+    font-size: 16px;
 }
 
 li {
-    float: left;
     position: sticky;
     display: inline-block;
 }
@@ -76,11 +84,17 @@ li {
 	left: 0;
 	width: 100%;
 	height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .link{
   text-decoration: none;
   color:#009933;
+}
+
+.email{
+  color:#0C60EC;
 }
 
 /*.fa {
@@ -109,30 +123,51 @@ li {
   color: #FF0000;
 }*/
 
-.social {
+#social {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom:20px;
 }
 
+.social{
+  width: 20%;
+}
+
+<<<<<<< HEAD
 .photo_aside {
  width: 100%;
 float:left;
 }
 
+=======
+/*.photo_aside {
+ width: 100%;
+float:left;
+}
+.text1 {
+  float:left;
+  text-align: left;
+  position: inherit;
+  margin: 0;
+}*/
+>>>>>>> 0a71d514806b2787471f331352b97ce9999ddd0e
 .footer {
   font-style: italic;
   font-size: 12px;
 }
 
 .team{
-  max-width: 560px;
-  display: block;
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 10px;
 
 }
+
 .team_pic{
-  float:left;
-  width:30%;
+  width:15%;
+  margin:10px;
 
 }
 .left{
@@ -181,6 +216,58 @@ width: 100%;
       text-align: left;
 }
 .team_text{
-  float:left;
-  width:70%;
+  width:100%;
+  margin:10px;
+}
+
+.usercontent{
+  display: flex;
+  flex-direction:row;
+}
+
+.usertext{
+  margin-top:10px;
+}
+
+
+/* videoplayer css stuuuuff */
+
+#video_player {
+  display: table; line-height: 0;
+  font-size: 0; background: #000;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#video_container {
+  position: absolute;
+}
+#video_player div, #video_player figcaption {
+  display: table-cell;
+  vertical-align: top;
+}
+#video_container video {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+#video_player figcaption { width: 25%; }
+#video_player figcaption a { display: block; }
+#video_player figcaption a {
+  opacity: .5;
+  transition: 1s opacity;
+}
+#video_player figcaption a img, figure video {
+  width: 100%; height: auto;
+}
+#video_player figcaption a.currentvid, #video_player
+figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
+@media (max-width: 700px) {
+  #video_player video, #video_player figcaption {
+    display: table-row;
+  }
+#video_container { padding-top: 56.25%; }
+#video_player figcaption a {
+  display: inline-block; width: 33.33%;
 }
