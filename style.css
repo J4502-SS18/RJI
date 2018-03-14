@@ -221,10 +221,12 @@ width: 100%;
 .usercontent{
   display: flex;
   flex-direction:row;
+  padding-top: 20px;
 }
 
 .usertext{
   margin-top:10px;
+  text-align: left;
 }
 
 
