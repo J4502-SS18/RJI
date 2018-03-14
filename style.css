@@ -32,16 +32,20 @@ h3{
 }
 
 #nav {
-  padding: 0;
-  list-style-type: none;
+  padding: 3px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-around;
+
+
 }
 
 #nav li {
   margin: 0;
   padding: 0;
   display: inline;
-  float:left;
-  width: 20%;
 }
 
 #nav a:link, #nav a:visited {
@@ -55,15 +59,14 @@ h3{
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #d7dcd9;
+    font-size: 14px;
 }
 
 li {
-    float: left;
     position: sticky;
     display: inline-block;
 }
