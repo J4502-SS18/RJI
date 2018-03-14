@@ -135,13 +135,12 @@ li {
   width: 20%;
 }
 
-<<<<<<< HEAD
 .photo_aside {
  width: 100%;
 float:left;
 }
 
-=======
+
 /*.photo_aside {
  width: 100%;
 float:left;
@@ -152,11 +151,8 @@ float:left;
   position: inherit;
   margin: 0;
 }*/
->>>>>>> 0a71d514806b2787471f331352b97ce9999ddd0e
-.footer {
-  font-style: italic;
-  font-size: 12px;
-}
+
+
 
 .team{
   display: flex;
@@ -270,4 +266,9 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 #video_container { padding-top: 56.25%; }
 #video_player figcaption a {
   display: inline-block; width: 33.33%;
+}
+
+.footer {
+  font-style: italic;
+  font-size: 12px;
 }
