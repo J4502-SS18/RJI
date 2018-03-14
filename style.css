@@ -29,10 +29,6 @@ h3{
 }
 
 
-#container{
-  width: auto;
-}
-
 #nav {
   padding: 1px;
   list-style: none;
@@ -275,4 +271,8 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 .footer {
   font-style: italic;
   font-size: 12px;
+}
+
+#container{
+  width: auto;
 }
