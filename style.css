@@ -259,14 +259,14 @@ width: 100%;
 }
 #video_player figcaption a.currentvid, #video_player
 figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
   #video_player video, #video_player figcaption {
     display: table-row;
   }
 #video_container { padding-top: 56.25%; }
 #video_player figcaption a {
   display: inline-block; width: 33.33%;
-}
+}*/
 
 .footer {
   font-style: italic;
@@ -288,20 +288,23 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 
 @media screen and (min-width: 600px) {
 
-  content {
+  section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
     grid-template-areas:
       "a b";
   }
 
   article {
-    grid-area: a;
+    grid-area: b;
   }
 
   .videoWrapper {
-    grid-area: b;
+    grid-area: a;
+  }
+
+  section {
+    padding: 20px;
   }
 
 }
