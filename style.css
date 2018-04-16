@@ -29,6 +29,8 @@ h3{
 }
 
 
+
+
 #nav {
   padding: 1px;
   list-style: none;
@@ -138,6 +140,10 @@ li {
 .photo_aside {
  width: 100%;
 float:left;
+}
+
+.socialimage {
+  width: 30%;
 }
 
 
