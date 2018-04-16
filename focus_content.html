@@ -27,11 +27,16 @@
     <li><input type="text" placeholder="Search.."/></li>
 </ul>
 
-<div class="videoWrapper">
-<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/wwiMXInq5UU" frameborder="0"
-allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-
-<div class="figcaption">
+<figure id="video_player">
+  <div id="video_container">
+    <iframe class="video">
+    <video controls poster="https://www.youtube.com/embed/wwiMXInq5UU"playsinline>
+      <source src="https://www.youtube.com/embed/wwiMXInq5UU" type="video/mp4">
+        <source src="https://www.youtube.com/embed/wwiMXInq5UU" type="video/webm"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </video>
+</div>
+<figcaption>
   <a href="https://www.youtube.com/embed?v=wwiMXInq5UU" class="currentvid">
     <img src="Placeholder/focus1.jpg" alt="Innovation in Focus1"/>
   </a>
@@ -40,8 +45,7 @@ allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
   </a>
   <a href="https://www.youtube.com/embed?v=wwiMXInq5UU.mp4">
     <img src="Placeholder/focus3.jpg" alt="Innovation in Focus3"/>
-  </a></div>
-</figcaption>
+  </a></div></figure>
 
 
 <!-- le footer -->
