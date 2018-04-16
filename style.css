@@ -276,3 +276,36 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 #container{
   width: auto;
 }
+
+@media screen and (min-width: 400px) {
+
+  #nav {
+    flex-flow: row;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+      "a b";
+  }
+
+  article {
+    grid-area: a;
+  }
+
+  .videoWrapper {
+    grid-area: b;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+
+}
