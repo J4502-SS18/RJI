@@ -1,3 +1,24 @@
+// hamburger menu //
+
+$(document).ready(function() {
+  $('.menu-trigger').click(function() {
+    $('#nav').slideToggle(500);
+  });
+
+$(window).resize(function() {
+  if ( $(window).width() > 700 ) {
+    $('#nav').removeAttr('style')
+  }
+
+});
+
+});
+
+
+
+
+
+
 var video_player = document.getElementById("video_player");
 video = video_player.getElementsByTagName("video")[0],
 video_links = video_player.getElementsByTagName("figcaption")[0],
@@ -82,21 +103,3 @@ if (index) {
 });
 
 })();
-
-
-// hamburger menu //
-
-$(document).ready(function() {
-  $('.menu-trigger').click(function() {
-    $('#nav').slideToggle(500);
-  });
-
-$(window).resize(function() {
-  if ( $(window).width() > 700 ) {
-    $('#nav').removeAttr('style')
-  }
-
-});
-
-});
-}

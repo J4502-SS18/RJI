@@ -7,8 +7,9 @@
   <title> Innovation in Focus|RJI</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="style.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="focus.js" type="text/javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400" />
 </head>
 
@@ -30,7 +31,9 @@
     <li><a href="focus_about.html">ABOUT</a></li>
     <li><a href="focus_user.html">USERS</a></li>
     <li><a href="focus_news.html">NEWS</a></li>
-    <li><input type="text" placeholder="Search.."/></li>
+    <div id="searchbar">
+    <input type= "text" placeholder="Search.."/>
+  </div>
 </ul>
 
 
@@ -61,7 +64,7 @@
 </div>
 
 <section>
-<div class="videoWrapper">
+<div class="newsRelease">
 <img src="datascience01.png"alt="illustration" />
 </div>
 <article>
@@ -83,7 +86,8 @@
 
 
 <section>
-<img src="datascience01.png"alt="illustration" />
+  <div class="newsRelease">
+<img src="datascience01.png"alt="illustration"/>
 </div>
 <article>
 <p>Why should journalists learn data science? At the end of the day, data science is another well to draw from in finding stories that matter. As the institutions we cover increasingly rely on data and algorithmic decision-making, our jobs will demand more of us than finding compelling anecdotes and getting great quotes.<br /><br />The specific tools we’re teaching — Jupyter Notebooks and pandas — fit well into the workflows of data-driven journalism. They’re powerful, yet easy enough to set up on your own laptop. The metaphor of a notebook is also something that journalists understand intuitively as a space to interrogate data and explain their findings in plain English.
