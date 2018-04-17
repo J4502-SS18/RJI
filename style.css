@@ -29,8 +29,6 @@ h3{
 }
 
 
-
-
 #nav {
   padding: 1px;
   list-style: none;
@@ -245,6 +243,7 @@ width: 100%;
 #video_container {
   position: absolute;
 }
+
 #video_player div, #video_player figcaption {
   display: table-cell;
   vertical-align: top;
@@ -287,14 +286,32 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 
 @media screen and (min-width: 400px) {
 
-  #nav {
+  #nav{
     flex-flow: row;
     justify-content: space-between;
-    font-size: 12px;
   }
+
+
+  .menu-trigger{
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+    display: block;
+  }
+
+#nav{
+  display: none;
+}
 }
 
 @media screen and (min-width: 600px) {
+
+
+  .menu-trigger{
+    display: none;
+    font-size: 1.75em;
+    width: 2em;
+  }
 
   section {
     display: grid;
@@ -318,6 +335,7 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 
   #nav {
     font-size: 16px;
+    display: flex;
   }
 
   .picture {
