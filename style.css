@@ -1,5 +1,5 @@
 body{
-background-color: #D7DCD9;
+background: linear-gradient(to bottom right, #D7DCD9,#6f7f76);
 }
 
 h1 {
@@ -63,7 +63,7 @@ h3{
 
 
 #nav a:hover, .navigation a:active{
-  color: #D7DCD9;
+  color: #b8c1bb;
 }
 
 
@@ -101,7 +101,7 @@ li {
 
 .link{
   text-decoration: none;
-  color:#009933;
+  color:#0C60EC;
 }
 
 .email{
@@ -264,6 +264,12 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 }
 
 @media screen and (min-width: 600px) {
+
+  #intro{
+    max-width: 50%;
+    margin: auto;
+    padding-top: 10px;
+  }
 
   #nav a{
     border-bottom: none;
