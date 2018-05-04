@@ -77,6 +77,9 @@ li {
     display: inline-block;
 }
 
+#max{
+  display: none;
+}
 
 
 .videoWrapper{
@@ -102,7 +105,7 @@ li {
 }
 
 .email{
-  color:#0C60EC;
+  color:#009933;
 }
 
 #social {
@@ -216,7 +219,8 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 }
 
 #container{
-  width: auto;
+  width: 95%;
+  margin: auto;
 }
 
 
@@ -226,8 +230,11 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
   text-align: center;
 }
 
-@media screen and (min-width:400px) {
-
+@media screen and (min-width:500px) {
+  .logo{
+    width: 100%;
+    margin: auto;
+  }
  #nav {
     padding: 10px;
     list-style: none;
@@ -236,6 +243,7 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
     flex-wrap: nowrap;
     justify-content:space-around;
     align-items: baseline;
+    font-size: 16px;
   }
 
   #nav a:link{
@@ -255,11 +263,6 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
     color:#009933;
   } */
 
-
-}
-
-@media screen and (min-width: 600px) {
-
   #intro{
     max-width: 50%;
     margin: auto;
@@ -272,13 +275,6 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
   #nav a:link, #nav a:visited{
     padding:0;
   }
-
-
-  /* .menu-trigger{
-    display: none;
-    font-size: 1.75em;
-    width: 2em;
-  } */
 
   section {
     display: grid;
@@ -300,11 +296,6 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
     padding: 20px;
   }
 
-  #nav {
-    font-size: 16px;
-    display: flex;
-  }
-
   .picture {
     display: block;
   }
@@ -317,7 +308,6 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
     display: flex;
     flex-direction:row;
     margin-bottom: 10px;
-
   }
 
   .team_pic{
@@ -331,9 +321,40 @@ figcaption a:hover, #video_player figcaption a:focus { opacity: 1; }
 
 }
 
-/* @media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
 
-} */
+   #header{
+     display: grid;
+     grid-template-columns: 200px 1fr;
+      grid-template-areas:
+        "a b";
+   }
+   .logo{
+     grid-area: a;
+   }
+   ul{
+     grid-area: b;
+     /* overflow:visible;
+     margin: auto; */
+     margin-top: 120px;
+     margin-bottom: 25px;
+   }
+   .logo img{
+     width:200px;
+   }
+   #nav{
+     padding:0;
+     margin-left:0;
+   }
+  #nav li{
+    display: block;
+    padding:10px;
+  }
+
+  #searchbar{
+    padding-right:10px;
+  }
+}
 
 
 footer{
