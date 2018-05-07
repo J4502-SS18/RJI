@@ -1,18 +1,18 @@
 // hamburger menu //
 
-$(document).ready(function() {
-  $('.menu-trigger').click(function() {
-    $('#nav').slideToggle(500);
-  });
-
-$(window).resize(function() {
-  if ( $(window).width() > 700 ) {
-    $('#nav').removeAttr('style')
-  }
-
-});
-
-});
+// $(document).ready(function() {
+//   $('.menu-trigger').click(function() {
+//     $('#nav').slideToggle(500);
+//   });
+//
+// $(window).resize(function() {
+//   if ( $(window).width() > 700 ) {
+//     $('#nav').removeAttr('style')
+//   }
+//
+// });
+//
+// });
 
 
 
@@ -23,25 +23,26 @@ var video_player = document.getElementById("video_player");
 video = video_player.getElementsByTagName("video")[0],
 video_links = video_player.getElementsByTagName("figcaption")[0],
 source = video.getElementsByTagName("source"),
-link_list = [],
-vidDir = "http://thenewcode.com/assets/videos/",
-currentVid = 0,
-allLnks = video_links.children,
-lnkNum = allLnks.length;
+// --link_list = [],
+// vidDir = "http://thenewcode.com/assets/videos/",
+// vidDir = "https://www.youtube.com/embed/wwiMXInq5UU"
+// currentVid = 0,
+// allLnks = video_links.children,
+// --lnkNum = allLnks.length;
 video.removeAttribute("controls");
 video.removeAttribute("poster");
 
 video.addEventListener('click', () => { video.play(); })
 
-(function() {
-function playVid(index) {
- video_links.children[index].classList.add("currentvid");
-    source[1].src = vidDir + link_list[index] + ".webm";
-	source[0].src = vidDir + link_list[index] + ".mp4";
-    currentVid = index;
-    video.load();
-	video.play();
-}
+// (function() {
+// function playVid(index) {
+//  video_links.children[index].classList.add("currentvid");
+//     source[1].src = vidDir + link_list[index] + ".webm";
+// 	source[0].src = vidDir + link_list[index] + ".mp4";
+//     currentVid = index;
+//     video.load();
+// 	video.play();
+// }
 
 for (var i=0; i<lnkNum; i++) {
 var filename = allLnks[i].href;
